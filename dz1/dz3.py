@@ -30,13 +30,13 @@ else:
 
 
 
-Василий AsmuZ # решение строками
+# решение строками
 n = "385916"
 
 l = int(n[0]) + int(n[1]) + int(n[2])
 r = int(n[-1]) + int(n[-2]) + int(n[-3])
 
 if l == r:
-print("yes")
+    print("yes")
 else:
-print("no")
+    print("no")
