@@ -18,3 +18,7 @@ if (n%6 == 0):
    print(p,k,s)
 else:
   print("Введите число, кратное 6")
+
+
+
+print(f"{round(n / 3 / 2)} {round(n / 3 * 2)} {round(n / 3 / 2)}")
