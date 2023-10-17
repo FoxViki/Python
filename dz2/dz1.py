@@ -17,9 +17,5 @@ for i in range(len(coins)):
         reshka += 1
 if orel < reshka:
     print(orel)
-elif (orel or reshka) == 0:
-    print (0)
-elif orel == reshka:
-    print(orel)
 else:
     print(reshka)

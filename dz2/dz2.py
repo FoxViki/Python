@@ -7,53 +7,19 @@
 # 4 4 -> 2 2
 # 5 6 -> 2 3
 
+s = 12
+p = 27
 
-
-
-from cmath import sqrt
-
-
-S = abs(int(input('Введите первое натуральное число S ')))
-P = abs(int(input('Введите второе натуральное число P ')))
-S = X + Y
-P = X * Y
-# y1 = int((S + ((-S) ** 2 - 4 * P) ** 0.5) / 2)
-# x1 = int((S - ((-S) ** 2 - 4 * P) ** 0.5) / 2)
-# print(x1, y1)
-
-X = S - Y
-X = P / Y
-
-Y^2 - S*Y + P == 0
-
-A = 1
-B = S
-C = P
-
-A*Y^2 - S*Y + P == 0
-
-D = B^2 - 4*A*C
-if D < 0:
-    print("Невозможно найти числа")
+for x in range(s//2+1):
+    y = s - x
+    if p == x*y:
+        print(x, y)
     
-elif D == 0:
-    X = -S/(2*A)
-    Y = S -X
-    print({X},{Y})
-    
-else:
-    X1 = (-B + sqrt(D))/(2*A)
-    X2 = (-B - sqrt(D))/(2*A)
-    Y1 = S-X1
-    Y2 = S-X2
-    print({X1},{Y1})
-    print({X2},{Y2})
 
 
 
 
 
-# x = abs(int(input('Введите первое натуральное число X от 1 до 1000 ')))
 # y = abs(int(input('Введите второе натуральное число Y от 1 до 1000 ')))
 # if x < 1 or x > 1000 or y < 1 or y > 1000:
 #     print('Вы ввели число не из заданного диапазона!')
