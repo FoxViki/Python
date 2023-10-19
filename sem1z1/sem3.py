@@ -4,6 +4,8 @@
 # Input: [1, 1, 2, 0, -1, 3, 4, 4]
 # Output: 6
 
+
+#решение
 # lst = [1, 1, 2, 0, -1, 3, 4, 4]
 
 # unique = []
@@ -13,7 +15,7 @@
 
 # print(len(unique))
 
-
+#еще
 # nums = [1, 1, 2, 0, -1, 3, 4, 4]
 
 # count = 1
@@ -37,22 +39,17 @@
 # print(len(numbers1))
 
 # #второе решение
-# numbers = [2, 2, 1]
+numbers = [2, 2, 1]
 
-# print(len(set(numbers)))
-# print(set(numbers))
-
-
+print(len(set(numbers)))
+print(set(numbers))
 
 
-
-
-
-
-# list_1 = [1, 1, 2, 0, -1, 3, 4, 4]
-# new_set = set(list_1)
-# print(list_1)
-# print(f"В списке {len(new_set)} разных чисел")
+# 3 решение
+list_1 = [1, 1, 2, 0, -1, 3, 4, 4]
+new_set = set(list_1)
+print(list_1)
+print(f"В списке {len(new_set)} разных чисел")
 
 
 
@@ -65,16 +62,15 @@
 #k = 3
 # Output: [4, 5, 1, 2, 3]
 
-# list1 = [1, 2, 3, 4, 5]
-# k = 7
+list1 = [1, 2, 3, 4, 5]
+k = 7
+l = len(list1)
+k = k%l
 
-# l = len(list1)
-
-# k = k%l
-# for i in range(k):
-#     temp = list1.pop()
-#     list1.insert(0, temp)
-#     print(list1)
+for i in range(k):
+    temp = list1.pop()
+    list1.insert(0, temp)
+    print(list1)
     
     
     
