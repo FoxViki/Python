@@ -47,4 +47,3 @@ for i in k:
     if i in dict:
         count += dict[i]
 print(count)
-        

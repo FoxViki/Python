@@ -12,3 +12,7 @@ for i in list_1:
     if i == k:
         count += 1
 print(count)
+
+# или 
+print(list_1.count(k))
+
