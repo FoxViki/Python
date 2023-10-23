@@ -28,6 +28,23 @@
 # находясь перед некоторым кустом грядки.
 
 # Пример использования На входе:
-# arr = [5, 8, 6, 4, 9, 2, 7, 3]
+arr = [5, 8, 6, 4, 9, 2, 7, 3]
 # На выходе:
-19
+# 19
+
+sum_max = 0
+k = len(arr)
+for i in range(k):
+    if  i == 0:
+        summa = arr[0]+arr[1]+arr[k-1]
+        
+    elif i == len(arr)-1:
+        summa = arr[k-1]+arr[k-2]+arr[0]
+        
+    else:
+        summa = arr[i]+arr[i+1]+arr[i-1]
+        
+    if summa > sum_max:
+        sum_max = summa
+print(sum_max)
+

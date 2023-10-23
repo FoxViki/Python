@@ -18,25 +18,34 @@
 # 3 5
 
 
-var1 = '5 4'
+var1 = '4 5'
 var2 = '10 20 30 40 50'
 var3 = '10 20 30 40 50'
 #var2 = var2.replace(' ', '')
 #var3 = var3.replace(' ', '')
 print(var2)
 print(var3)
-set1 = set(var2)
-set2 = set(var3)
+set1 = set(var2.split())
+set2 = set(var3.split())
 print(set1)
 print(set2)
-set1.remove(' ')
-set2.remove(' ')
+#set1.remove(' ')
+#set2.remove(' ')
 print(set1)
 print(set2)
 set_ob = sorted(set1.intersection(set2))
 my_list = list(set_ob)
 result = " ".join(my_list)
 print(result)
+
+
+
+
+
+
+
+
+
 
 #set1 = set(map(int, var2.split()))
 #set2 = set(map(int, var3.split()))
