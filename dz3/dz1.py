@@ -14,5 +14,5 @@ for i in list_1:
 print(count)
 
 # или 
-print(list_1.count(k))
+#print(list_1.count(k))
 

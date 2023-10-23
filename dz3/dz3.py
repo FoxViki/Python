@@ -47,3 +47,60 @@ for i in k:
     if i in dict:
         count += dict[i]
 print(count)
+
+
+
+
+# или 
+# list_1 = [chr(i) for i in range(97, 123)]
+
+# 11:17
+# dict = {};
+
+# for a in ['A', 'E', 'I', 'O', 'U', 'L', 'N', 'S', 'T', 'R']:
+#     dict[a]=1
+
+# for a in ['D', 'G']:
+#     dict[a] = 2
+# for a in ['B', 'C', 'M', 'P']:
+#     dict[a] = 3
+# for a in ['Й', 'Ы']:
+#     dict[a] = 4
+# for a in ['K']:
+#     dict[a] = 5
+# for a in ['J', 'X']:
+#     dict[a] = 8
+# for a in ['Q', 'Z']:
+#     dict[a] = 10
+# for a in ['А', 'В', 'Е', 'И', 'Н', 'О', 'Р', 'С', 'Т']:
+#     dict[a]=1
+
+# for a in ['Д', 'К', 'Л', 'М', 'П', 'У']:
+#     dict[a] = 2
+# for a in ['Б', 'Г', 'Ё', 'Ь', 'Я']:
+#     dict[a] = 3
+# for a in ['F', 'H', 'V', 'W', 'Y']:
+#     dict[a] = 4
+# for a in ['Ж', 'З', 'Х', 'Ц', 'Ч']:
+#     dict[a] = 5
+# for a in ['Ш', 'Э', 'Ю']:
+#     dict[a] = 8
+# for a in ['Ф', 'Щ', 'Ъ']:
+#     dict[a] = 10    
+# list_2 = list(k.upper())
+
+# result = 0
+# for i in list_2:
+#     result += dict[i]
+# print(result)
+
+
+
+# или 
+# dict_Eng = {1: 'AEIOULNSTR', 2: 'DG', 3: 'BCMP', 4: 'FHVWY', 5: 'K', 8: 'JX', 10: 'QZ'}
+# dict_Rus = {1: 'АВЕИНОРСТ', 2: 'ДКЛМПУ', 3: 'БГЁЬЯ', 4: 'ЙЫ', 5: 'ЖЗХЦЧ', 8: 'ШЭЮ', 10: 'ФЩЪ'}
+# k = 'ноутбук'
+# k = k.upper()  
+
+# result = [key for letter in k for key, value in dict_Eng.items() if letter in value] or [key for letter in k for key, value in dict_Rus.items() if letter in value]
+# print(sum(result))
