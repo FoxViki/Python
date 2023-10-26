@@ -79,48 +79,48 @@
 
 
 
-s1 = '6'
-s2 = '222anton456'
-s3 = 'a1n1t1o1n1'
-s4 = '0000a0000n00t00000o000000n'
-s5 = 'gylfole'
-s6 = 'richard'
-s7 = 'ant0n'
-s8 = '9'
-s9 = 'osfjwoiergwoignaewpjofwoeijfnwfonewfoignewtowenffnoeiwowjfninoiwfen'
-s10 = 'c'
-s11 = 'aoooooooooontooooo'
-s12 = 'elelelelelelelelelel'
-s13 = 'ntoneeee'
-s14 = 'tonee'
-s15 = '253235235a5323352n25235352t253523523235oo235523523523n'
-s16 = 'antoooooooooooooooooooooooooooooooooooooooooooooooooooon'
-s17 = 'unton'
+# s1 = '6'
+# s2 = '222anton456'
+# s3 = 'a1n1t1o1n1'
+# s4 = '0000a0000n00t00000o000000n'
+# s5 = 'gylfole'
+# s6 = 'richard'
+# s7 = 'ant0n'
+# s8 = '9'
+# s9 = 'osfjwoiergwoignaewpjofwoeijfnwfonewfoignewtowenffnoeiwowjfninoiwfen'
+# s10 = 'c'
+# s11 = 'aoooooooooontooooo'
+# s12 = 'elelelelelelelelelel'
+# s13 = 'ntoneeee'
+# s14 = 'tonee'
+# s15 = '253235235a5323352n25235352t253523523235oo235523523523n'
+# s16 = 'antoooooooooooooooooooooooooooooooooooooooooooooooooooon'
+# s17 = 'unton'
 
-k = 'anton'
-s = k.split()
+# k = 'anton'
+# s = k.split()
 
-dict = {s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, s11, s12, s13, s14, s15, s16, s17}
-for i in s:
-    a = 0
-    n = 0
-    t = 0
-    o = 0
-    n = 0
-    for j in dict:
-        if j == 'a':
-            a == True
-            y = j
-            if a == True & i == 'n':
-                n == True
-                if a == True & n == True & i == 't':
-                    t == True
-                    if a == True & n == True & t == True & i == 't':
-                        o == True
-                        if a == True & n == True & t == True & o == True & i == 't':
-                            n == True
-                            print('Заражен')
-    print(f'Заражен этот холодидьник {dict[j]}')
+# dict = {s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, s11, s12, s13, s14, s15, s16, s17}
+# for i in s:
+#     a = 0
+#     n = 0
+#     t = 0
+#     o = 0
+#     n = 0
+#     for j in dict:
+#         if j == 'a':
+#             a == True
+#             y = j
+#             if a == True & i == 'n':
+#                 n == True
+#                 if a == True & n == True & i == 't':
+#                     t == True
+#                     if a == True & n == True & t == True & i == 't':
+#                         o == True
+#                         if a == True & n == True & t == True & o == True & i == 't':
+#                             n == True
+#                             print('Заражен')
+#     print(f'Заражен этот холодидьник {dict[j]}')
                         
         
 #         print("Найден вирус 'anton' at position", position)
@@ -150,3 +150,30 @@ for i in s:
 #               break; #завершаем поиск по строке, так как цель достигнута
 # if res == 'anton':
 #         print(i, end=' ')
+        
+        
+        
+        
+        
+        
+        
+        
+# верное решение Никита Шаров
+# virus = 'anton'
+# n = int(input('Введите кол-во холодильников: '))
+# infected_fridges = []
+
+# for i in range(n):
+#     code_fridge = (input(f'Введите код {i + 1} холодильника: '))
+
+#     index = 0
+#     found = False
+#     for letter in code_fridge:
+#         if letter == virus[index]:
+#             index += 1
+#         if index == len(virus):
+#             found = True
+#             break
+#     if found:
+#         infected_fridges.append(i + 1)
+# print(infected_fridges) держи моё но оно другое
