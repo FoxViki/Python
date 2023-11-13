@@ -12,3 +12,13 @@ def f(a, b):
 a = 3
 b = 5
 print(f(a, b))
+
+
+# или
+# def f(a, b):
+#     if (b == 0):
+#         return 1
+#     return f(a, b-1)*a
+# a = 3
+# b = 5
+# print(f(a, b))
