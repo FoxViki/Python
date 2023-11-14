@@ -11,13 +11,14 @@ a1 = 2
 d = 3
 n = 4
 
-list_arr=[n]
-list_arr[0]=a1
-list_arr.append(list_arr[0])
-for i in range(1, n+1):
-    list_arr[i]=a1 + (i-1)*d
-    list_arr.append(list_arr[i])
-print(list_arr)
+ap=list(n)
+print(type(ap))
+# list_arr[0]=a1
+# list_arr.append(list_arr[0])
+# for i in range(1, n+1):
+#     list_arr[i]=a1 + (i-1)*d
+#     list_arr.append(list_arr[i])
+# print(list_arr)
 
 # list_1 = list() # создание пустого списка
 # for i in range(n): # цикл выполнится 4 раз

@@ -47,3 +47,48 @@ for _ in range(num - 1):
 
 print()    
 print(min_weight, max_weight)
+
+
+
+
+
+
+
+# допзадачи
+# # range(start=0, stop, step=1)
+
+# # range(5) # range(start=0, 5, step=1) -> 0, 1, 2, 3, 4 
+# # range(2, 5) # range(2, 5, step=1) -> 2, 3, 4 
+# # range(2, 12, 2) # range(2, 12, 2) -> 2, 4, 6, 8, 10 
+
+# text = 'sdfsdgcgnd sdfghert sxfgery ert'
+# # print(*range(len(text)))
+# # print(list(range(len(text))))
+# # for i in range(len(text)):
+# #     print(i, text[i], sep=' - ')
+    
+# # print()
+# # for symbol in text:
+# #     print(symbol, end='')
+    
+    
+# for i in range(len(text)):
+#     if i % 3 == 0:
+#         continue
+#     if text[i] == 'f':
+#         break
+#     print(i, text[i], sep=' - ')
+# else:
+#     print('Мы прошлись по всей строке полностью')
+
+
+# n = 1    
+# while True:
+#     print('Бесконечный цикл')
+#     n +=1 
+#     if n % 5 == 0:
+#         break
+    
+# n = 1    
+# while n % 5 != 0:
+#     n +=1
