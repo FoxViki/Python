@@ -14,4 +14,44 @@
 # Input:    6 -> -20 30 -40 50 10 -10
 # Output: 2
 
-arr = 
+# import random
+
+
+# days_num = int(input("Введите кол-во дней: "))
+
+# max_thaw_days = 0
+# thaw_days = 0
+# for i in range(days_num):
+#     # temperature = random.randint(-50, 50)
+#     temperature = int(input("Введите температуру: "))
+#     # print(temperature, end=" ")
+#     if temperature > 0:
+#         thaw_days += 1
+#     else:
+#         if thaw_days > max_thaw_days:
+#             max_thaw_days = thaw_days
+#         thaw_days = 0
+
+# if thaw_days > max_thaw_days:
+#     max_thaw_days = thaw_days
+
+# print()
+# print(f'{max_thaw_days=}')
+
+days_num = int(input("Введите кол-во дней: "))
+
+max_thaw_days = 0
+thaw_days = 0
+for i in range(days_num):
+    # temperature = random.randint(-50, 50)
+    temperature = int(input("Введите температуру: "))
+    # print(temperature, end=" ")
+    if temperature > 0:
+        thaw_days += 1
+        if thaw_days > max_thaw_days:
+            max_thaw_days = thaw_days
+    else:
+        thaw_days = 0
+
+print()
+print(f'{max_thaw_days=}')
