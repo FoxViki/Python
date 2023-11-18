@@ -17,6 +17,14 @@ for curr_dict in list_dicts:
         my_set.add(val)
 print(my_set)
 
+#var3
+# my_set = set()
+
+# for curr_dict in list_dicts:
+#     my_set.add(*curr_dict.values()):   *-выковыривает один только обьект внутри. если два обьекта то не прет
+# если много значений то используетс строка с ф-ей update-она как распаковка: my_set.update(curr_dict.values()):
+# print(my_set)
+
 
 
 
