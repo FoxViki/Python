@@ -28,12 +28,14 @@ y=3
 
 
 def print_operation_table(operation, num_rows, num_columns):
-    if num_rows < 2:
+    if num_rows < 2 or num_columns < 2:
         print('ОШИБКА! Размерности таблицы должны быть больше 2!')
     else:
-        a = [[operation(i, j) for j in range(1, num_columns + 1)] for i in range(1, num_rows + 1)]
-        for i in a:
-            print(*[f"{x:>3}" for x in i])
+        header = ' '.join([str(i) for i in range(1, num_columns + 1)])
+        print(header)
+        for i in range(2, num_rows + 1):
+            row = [str(i)] + [str(operation(i, j)) for j in range(2, num_columns + 1)]
+            print(' '.join(row))
 
 
 print_operation_table(lambda x, y: x * y, 3, 3)
