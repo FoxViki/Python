@@ -48,9 +48,7 @@ def find_entry(surname):
 
 def main():
     while True:
-        
         choice = input("Выберите действие (add/update/delete/find/quit): ").lower()
-        
         if choice == "quit":
             break
         elif choice == "add":
